@@ -1828,18 +1828,16 @@ caniuse-lite@^1.0.30001165:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001165.tgz#32955490d2f60290bb186bb754f2981917fa744f"
   integrity sha512-8cEsSMwXfx7lWSUMA2s08z9dIgsnR5NAqjXP23stdsU3AUWkCr/rr4s4OFtHXn5XXr6+7kam3QFVoYyXNPdJPA==
 
-caporal@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/caporal/-/caporal-1.0.0.tgz#33d6128699c23418315287e31d03176cc7526b42"
-  integrity sha512-3MSTBx1ZJaaLFBXmytTGQTVXxPKZVv8AxDMu5K1htFxat/eKoBNQjpT2P3jsTxQbq2XWr4yeu5vVS3F6gNnq8A==
+caporal@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/caporal/-/caporal-1.4.0.tgz#d6087b815e3df97c3a0f55dbb82850fae29ed585"
+  integrity sha512-3pWfIwKVdIbB/gWmpLloO6iGAXTRi9mcTinPOwvHfzH3BYjOhLgq2XRG3hKtp+F6vBcBXxMgCobUzBAx1d8T4A==
   dependencies:
     bluebird "^3.4.7"
     cli-table3 "^0.5.0"
-    colorette "1.0.1"
+    colorette "^1.0.1"
     fast-levenshtein "^2.0.6"
-    lodash.camelcase "^4.3.0"
-    lodash.kebabcase "^4.1.1"
-    lodash.merge "^4.6.0"
+    lodash "^4.17.14"
     micromist "1.1.0"
     prettyjson "^1.2.1"
     tabtab "^2.2.2"
@@ -2099,10 +2097,10 @@ color-name@~1.1.4:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-colorette@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.0.1.tgz#434bad4bd70969c075162fec86ca55da36bf837c"
-  integrity sha512-40MnlppkzHhFjRhtXunbpqKUT+eJn0gyVGi8aQlNSG8T2CCy31NdD7yktcS0aizH1VP2OhhQCyGMeTp0a/fvaw==
+colorette@^1.0.1:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.4.0.tgz#5190fbb87276259a86ad700bff2c6d6faa3fca40"
+  integrity sha512-Y2oEozpomLn7Q3HFP7dpww7AtMJplbM9lGZP6RDfHqmbeRjiwRg4n6VM6j4KLmRke85uWEI7JqF17f3pqdRA0g==
 
 colorette@^1.2.1:
   version "1.2.1"
@@ -4540,17 +4538,12 @@ lodash.islength@^4.0.1:
   resolved "https://registry.yarnpkg.com/lodash.islength/-/lodash.islength-4.0.1.tgz#4e9868d452575d750affd358c979543dc20ed577"
   integrity sha1-Tpho1FJXXXUK/9NYyXlUPcIO1Xc=
 
-lodash.kebabcase@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/lodash.kebabcase/-/lodash.kebabcase-4.1.1.tgz#8489b1cb0d29ff88195cceca448ff6d6cc295c36"
-  integrity sha1-hImxyw0p/4gZXM7KRI/21swpXDY=
-
 lodash.memoize@~3.0.3:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-3.0.4.tgz#2dcbd2c287cbc0a55cc42328bd0c736150d53e3f"
   integrity sha1-LcvSwofLwKVcxCMovQxzYVDVPj8=
 
-lodash.merge@^4.6.0, lodash.merge@^4.6.1:
+lodash.merge@^4.6.1:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
