@@ -1,0 +1,63 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > lodash':
+        patched: '2025-10-04T21:53:01.264Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@babel/core > lodash'
+    - webpack-bundle-analyzer > lodash:
+        patched: '2025-10-04T21:53:01.264Z'
+        id: SNYK-JS-LODASH-567746
+        path: webpack-bundle-analyzer > lodash
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2025-10-04T21:53:01.264Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-eslint > @babel/traverse > lodash
+    - ava > @babel/core > lodash:
+        patched: '2025-10-04T21:53:01.264Z'
+        id: SNYK-JS-LODASH-567746
+        path: ava > @babel/core > lodash
+    - '@babel/preset-env > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2025-10-04T21:53:01.264Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/helper-module-imports > @babel/types >
+          lodash
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2025-10-04T21:53:01.264Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          ava > @ava/babel-preset-stage-4 >
+          @babel/plugin-transform-modules-commonjs >
+          @babel/helper-module-transforms > lodash
+    - '@babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2025-10-04T21:53:01.264Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-transform-async-to-generator >
+          @babel/helper-module-imports > @babel/types > lodash
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-annotate-as-pure > @babel/types > lodash':
+        patched: '2025-10-04T21:53:01.264Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator >
+          @babel/helper-annotate-as-pure > @babel/types > lodash
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-transform-async-to-generator > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2025-10-04T21:53:01.264Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          ava > @ava/babel-preset-stage-4 >
+          @babel/plugin-transform-async-to-generator >
+          @babel/helper-module-imports > @babel/types > lodash
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2025-10-04T21:53:01.264Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          ava > @ava/babel-preset-stage-4 >
+          @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator >
+          @babel/helper-annotate-as-pure > @babel/types > lodash
